@@ -1,5 +1,5 @@
 function YUV=RGB2YUV(img)
-%transform uint8 RGB image to uint8 YUV image
+%transform uint8 RGB image to uint8 YUV image(use JPEG criteria)
 r=double(img(:,:,1));
 g=double(img(:,:,2));
 b=double(img(:,:,3));
