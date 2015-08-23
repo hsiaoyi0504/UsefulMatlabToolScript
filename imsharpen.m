@@ -21,7 +21,7 @@ for i=1:size(imgIn,1)-2
        
     end
 end
-%filtered
-figure,imshow(I);
+%filtered Image
+I=uint8(I);
 %Sharpenend Image
 imgOut=I1-I;
